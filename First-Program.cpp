@@ -86,7 +86,7 @@ ne pourrez pas générer votre programme !
 Notez bien : chaque instruction se termine par un point-virgule ! C'est d'ailleurs ce qui vous permet de différencier les instructions du reste.
 Si vous oubliez le point-virgule, la compilation ne fonctionnera pas et votre programme ne pourra pas être créé !
 
-Il y a 3 éléments sur cette ligne :
+Il y a 3 éléments sur cette ligne :*/
 
     cout: commande l'affichage d'un message à l'écran ;
 
@@ -94,11 +94,11 @@ Il y a 3 éléments sur cette ligne :
 
     endl: crée un retour à la ligne dans la console.
 
-Il est possible de combiner plusieurs messages en une instruction. Par exemple :
+/*Il est possible de combiner plusieurs messages en une instruction. Par exemple :*/
 
 cout << "Bonjour tout le monde !" << endl << "Comment allez-vous ?" << endl;
 
-… affiche ces deux phrases sur deux lignes différentes. Essayez ce code, vous verrez !
+/*… affiche ces deux phrases sur deux lignes différentes. Essayez ce code, vous verrez !
 
 Sous Windows, les caractères accentués s'affichent mal (essayez d'afficher « Bonjour Gérard » pour voir !). C'est un problème de la console de Windows 
 (problème qu'on peut retrouver plus rarement sous Mac OS X et Linux). Il existe des moyens de le régler mais aucun n'est vraiment satisfaisant. À la place, 
@@ -202,7 +202,7 @@ j'aurai tout oublié et je serai perdu pour le modifier
 En général, on n'écrit pas un roman dans les commentaires non plus… sauf si la situation le justifie vraiment.
 Commentons notre code source !
 
-Reprenons le code source que nous avons étudié dans ce chapitre et complétons-le de quelques commentaires pour nous souvenir de ce qu'il fait.
+Reprenons le code source que nous avons étudié dans ce chapitre et complétons-le de quelques commentaires pour nous souvenir de ce qu'il fait.*/
 
 #include <iostream> // Inclut la bibliothèque iostream (affichage de texte)
 
