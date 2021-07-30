@@ -52,7 +52,7 @@ C'est ici que commence vraiment le cœur du programme. Les programmes, vous le v
 peut appeler d'autres fonctions pour effectuer certaines actions.
 Tous les programmes possèdent une fonction dénommée « main » (Qui se prononce « mèïne » en anglais), ce qui signifie « principale ». C'est donc la fonction principale.
 
-Une fonction a la forme suivante :
+Une fonction a la forme suivante :*/
 
 int main()
 
@@ -62,7 +62,7 @@ int main()
 
 }
 
-Les accolades déterminent le début et la fin de la fonction. Comme vous le voyez dans le code source qui a été généré par Code::Blocks, il n'y a rien après la 
+/*Les accolades déterminent le début et la fin de la fonction. Comme vous le voyez dans le code source qui a été généré par Code::Blocks, il n'y a rien après la 
 fonctionmain. C'est normal : à la fin de la fonctionmainle programme s'arrête ! Tout programme commence au début de la fonctionmainet se termine à la fin de celle-ci.
 
 Cela veut dire qu'on va écrire tout notre programme dans la fonctionmain?
@@ -236,7 +236,7 @@ En fait, les commentaires sont plus utiles pour expliquer le fonctionnement d'un
 Mettez votre code en forme
 
 Un autre élément important pour les développeurs est la mise en forme du code. Le compilateur ne s'intéresse pas aux espaces ou aux retours à la ligne présents 
-dans le code source. En fait, ils ne sont là que pour nous aider, nous les humains, à lire le code. Le compilateur serait tout à fait heureux de compiler ce code:
+dans le code source. En fait, ils ne sont là que pour nous aider, nous les humains, à lire le code. Le compilateur serait tout à fait heureux de compiler ce code:*/
 
 #include <iostream>
 
@@ -246,7 +246,7 @@ using namespace std; int main()
 
     cout << "Hello world!"<<     endl; return 0; }
 
-(Essayez pour voir !) Par contre, il n'est pas facile à lire du tout, vous en conviendrez. ;) Les paires de parenthèses ne sont pas simple à repérer, on ne voit pas
+/*(Essayez pour voir !) Par contre, il n'est pas facile à lire du tout, vous en conviendrez. ;) Les paires de parenthèses ne sont pas simple à repérer, on ne voit pas
 bien la séparation entre les instructions, bref, ce code source n'est pas facile à utiliser. Imaginez maintenant que votre programme fasse des centaines de lignes de 
 long, cela deviendra vite incompréhensible. Pour éviter que cela devienne ingérable, il est donc nécessaire de mettre son code en forme de manière plus lisible.
 
