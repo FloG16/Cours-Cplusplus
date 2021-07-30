@@ -8,7 +8,7 @@ int main()
 	return 0;
 }
 
-La toute première ligne est :
+/*La toute première ligne est :
 
 #include <iostream>
 
@@ -111,7 +111,7 @@ ce sont les premiers programmes C++ que vous réalisez tout seul sans copier dep
 A chaque que fois qu'il y aura des exemples, essayez de modifier les instructions, de voir ce qui se passe si on change l'ordre, bref de "bidouiller", c'est 
 le meilleur moyen d'apprendre.
 
-Au cours de vos essais, vous avez peut-être essayé d'afficher un backslash (\) ou des guillemets ("). Si ce n'est pas le cas, je vous propose de le faire maintenant:
+Au cours de vos essais, vous avez peut-être essayé d'afficher un backslash (\) ou des guillemets ("). Si ce n'est pas le cas, je vous propose de le faire maintenant:*/
 
 #include <iostream>
 
@@ -132,8 +132,8 @@ int main()
 
 }
 
-Le compilateur ne va pas aimer cela du tout et il un message d'erreur devrait s'afficher dans la zone au bas de votre fenêtre Code::Blocks. La raison est simple,
-pour afficher des guillemets, il faut utiliser la combinaison\"et pas juste", idem pour le backslash qu'il faut doubler. Il faut donc écrire:
+/*Le compilateur ne va pas aimer cela du tout et il un message d'erreur devrait s'afficher dans la zone au bas de votre fenêtre Code::Blocks. La raison est simple,
+pour afficher des guillemets, il faut utiliser la combinaison\"et pas juste", idem pour le backslash qu'il faut doubler. Il faut donc écrire:*/
 
 #include <iostream>
 
@@ -154,7 +154,7 @@ int main()
 
 }
 
-Je vous laisse faire le test pour vérifier que cela fonctionne. Maintenant que vous avez vu ces deux petites exceptions, vous êtes prêt à écrire tout ce qui vous
+/*Je vous laisse faire le test pour vérifier que cela fonctionne. Maintenant que vous avez vu ces deux petites exceptions, vous êtes prêt à écrire tout ce qui vous
 passera par la tête dans la console. Voyons maintenant ce qui se passe à la fin de notre programme.
 return
 
@@ -197,7 +197,7 @@ alors je prends mon temps pour l'expliquer
 
 parce que je sais que sinon, dans quelques semaines,
 
-j'aurai tout oublié et je serai perdu pour le modifier */
+j'aurai tout oublié et je serai perdu pour le modifier 
 
 En général, on n'écrit pas un roman dans les commentaires non plus… sauf si la situation le justifie vraiment.
 Commentons notre code source !
@@ -228,7 +228,7 @@ int main()
 
 }
 
-Si vous lancez ce programme, vous ne verrez aucune nouveauté. Les commentaires sont, comme je vous le disais, purement ignorés par le compilateur.
+/*Si vous lancez ce programme, vous ne verrez aucune nouveauté. Les commentaires sont, comme je vous le disais, purement ignorés par le compilateur.
 
 J'ai volontairement commenté chaque ligne de code ici mais, dans la pratique il ne faut pas non plus commenter à tout-va. Si une ligne de code fait quelque chose 
 de vraiment évident, inutile de la commenter.
