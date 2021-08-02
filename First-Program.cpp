@@ -100,7 +100,7 @@ cout << "Bonjour tout le monde !" << endl << "Comment allez-vous ?" << endl;
 
 /*… affiche ces deux phrases sur deux lignes différentes. Essayez ce code, vous verrez !
 
-Sous Windows, les caractères accentués s'affichent mal (essayez d'afficher « Bonjour Gérard » pour voir !). C'est un problème de la console de Windows 
+/*Sous Windows, les caractères accentués s'affichent mal (essayez d'afficher « Bonjour Gérard » pour voir !). C'est un problème de la console de Windows 
 (problème qu'on peut retrouver plus rarement sous Mac OS X et Linux). Il existe des moyens de le régler mais aucun n'est vraiment satisfaisant. À la place, 
 je vous recommande plutôt d'éviter les accents dans les programmes console sous Windows.
 Rassurez-vous : les GUI que nous créerons plus tard avec Qt n'auront pas ce problème !
